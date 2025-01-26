@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="13mm"
+   height="13mm"
+   viewBox="0 0 13 13"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="openllum icon.svg"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#000000"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="8.334375"
+     inkscape:cx="170.07874"
+     inkscape:cy="44.574428"
+     inkscape:window-width="3840"
+     inkscape:window-height="1995"
+     inkscape:window-x="1440"
+     inkscape:window-y="44"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <defs
+     id="defs1" />
+  <path
+     id="rect8"
+     style="fill:#b20000;stroke-width:0.0999998"
+     d="M 5.9999999,1 H 0.99999997 V 6.0000001 H 5.9999999 Z" />
+  <path
+     id="rect8-2"
+     style="fill:#00b240;stroke-width:0.1"
+     d="M 7.0000001,0.99999997 H 12 V 5.9999999 H 7.0000001 Z" />
+  <path
+     id="rect9"
+     style="fill:#000ab2;stroke-width:0.1"
+     d="m 1,7 h 5 v 5 H 1 Z" />
+  <path
+     id="rect10"
+     style="fill:#f2f2f2;stroke-width:0.0999991"
+     d="m 7,6.9999998 h 5 V 12 H 7 Z" />
+</svg>

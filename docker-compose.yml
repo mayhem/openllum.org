@@ -1,0 +1,20 @@
+version: "3.3"
+
+services:
+
+  web:
+    build: .
+    image: openllum.org
+    expose:
+      - "3031"
+    volumes:
+      - .:/code/openllum.org:z
+    environment:
+      - VIRTUAL_HOST=openllum.org
+      - LETSENCRYPT_HOST=openllum.org
+      - LETSENCRYPT_EMAIL=rob@mayhem.cat
+
+networks:
+  default:
+    name: nginx-proxy
+    external: true
