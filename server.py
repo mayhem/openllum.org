@@ -16,5 +16,13 @@ app = Flask(__name__,
             template_folder = TEMPLATE_FOLDER)
 
 @app.route('/')
-def index():
+def index_ca():
     return render_template("/index.html")
+
+@app.route('/es')
+def index_es():
+    return render_template("/index-es.html")
+
+@app.route('/en')
+def index_en():
+    return render_template("/index-en.html")
