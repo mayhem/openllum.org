@@ -24,7 +24,16 @@
   <body class="vh-100">
       <div class="container-md h-100">
           <div class="row" style="background: #3e3e3e; border-radius: 0px 0px 20px 20px;">
-              <img src="/static/img/openllum.svg" style="max-height: 100px">
+              <span>
+              <img src="/static/img/openllum.svg" style="max-height: 100px; margin-right: 6em">
+              {% if lang == "ca" %}
+              <span class="navbar-text">Catalan</span> | <a class="navbar-link" href="/es">Español</a> | <a class="navbar-link" href="/en">English</a>
+              {% elif lang == "es" %}
+              <span class="navbar-text">Español</span> | <a class="navbar-link" href="/">Catalan</a> | <a class="navbar-link" href="/en">English</a>
+              {% else %}
+              <span class="navbar-text">English</span> | <a class="navbar-link" href="/">Catalan</a> | <a class="navbar-link" href="/es">Español</a>
+              {% endif %}
+              </span>
           </div>
           {% block content %}
           {% endblock %}

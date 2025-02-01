@@ -53,3 +53,13 @@ h4 {
     }
 }
 
+.navbar-link {
+    font-size: 21px;
+    color: #fefefe !important;
+}
+
+.navbar-text {
+    font-weight: bold;
+    font-size: 21px;
+    color: #fefefe !important;
+}

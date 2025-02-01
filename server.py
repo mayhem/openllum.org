@@ -17,12 +17,12 @@ app = Flask(__name__,
 
 @app.route('/')
 def index_ca():
-    return render_template("/index.html")
+    return render_template("/index.html", lang="ca")
 
 @app.route('/es')
 def index_es():
-    return render_template("/index-es.html")
+    return render_template("/index-es.html", lang="es")
 
 @app.route('/en')
 def index_en():
-    return render_template("/index-en.html")
+    return render_template("/index-en.html", lang="en")
