@@ -1,65 +1,59 @@
 body {
-  font-family: 'Helvetica', sans-serif !important;
-  background: #FCFBFB;
-}
-
-.coming-soon {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
-  flex-wrap: nowrap;
+    font-size: 1.2em;
 }
 
 h2 {
-    margin: 1.5em 0 1.5em 0 !important;
-}
-
-h3 {
     margin: 1.3em 0 1.3em 0 !important;
 }
 
-h4 {
+h3 {
     margin: 1.2em 0 1.2em 0 !important;
 }
 
-.logo {
-    text-align: center;
-    margin: 3.5em 0 0 0 !important;
-    max-width: 250px;
+h4 {
+    margin: 1.1em 0 1.1em 0 !important;
 }
 
-
 @media (min-width: 300px) {
-    .inner-margin {
+    .logo {
+        max-width: 150px;
+    }
+    .page-margin {
     }
 }
 
 @media (min-width: 576px) {
-    .inner-margin {
-        margin-left: 2em !important;
+    .logo {
+        max-width: 200px;
+    }
+    .page-margin {
+        margin: 0 3em 0 3em;
     }
 }
 
 @media (min-width: 768px) {
-    .inner-margin {
-        margin-left: 4em !important;
+    .logo {
+        max-width: 300px;
+    }
+    .page-margin {
+        margin: 0 6em 0 6em;
     }
 }
 
 @media (min-width: 992px) {
-    .inner-margin {
-        margin-left: 6em !important;
+    .logo {
+        max-width: 400px;
+    }
+    .page-margin {
+        margin: 0 8em 0 8em;
     }
 }
 
-.navbar-link {
-    font-size: 21px;
-    color: #fefefe !important;
+nav .navbar-nav li a{
+    color: #cccccc !important;
 }
 
-.navbar-text {
-    font-weight: bold;
-    font-size: 21px;
-    color: #fefefe !important;
+.nav-link.active {
+    font-weight: 900;
+    color: #f2f2f2 !important;
 }

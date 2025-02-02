@@ -7,11 +7,11 @@
 
     {% block styles %}
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:300,400,500,600">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/openllum.org.css') }}">
     <link rel="shortcut icon" href="{{ url_for('static', filename='img/openllum.ico') }}">
     <script src="https://unpkg.com/htmx.org@1.9.10"></script>
     <script src="https://unpkg.com/htmx.org/dist/ext/json-enc.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </head>
 
@@ -23,20 +23,35 @@
   </head>
   <body class="vh-100">
       <div class="container-md h-100">
-          <div class="row" style="background: #3e3e3e; border-radius: 0px 0px 20px 20px;">
-              <span>
-              <img src="/static/img/openllum.svg" style="max-height: 100px; margin-right: 6em">
-              {% if lang == "ca" %}
-              <span class="navbar-text">Catalan</span> | <a class="navbar-link" href="/es">Español</a> | <a class="navbar-link" href="/en">English</a>
-              {% elif lang == "es" %}
-              <span class="navbar-text">Español</span> | <a class="navbar-link" href="/">Catalan</a> | <a class="navbar-link" href="/en">English</a>
-              {% else %}
-              <span class="navbar-text">English</span> | <a class="navbar-link" href="/">Catalan</a> | <a class="navbar-link" href="/es">Español</a>
-              {% endif %}
-              </span>
-          </div>
-          {% block content %}
-          {% endblock %}
+          <nav class="navbar navbar-expand-md bg-primary" data-bs-theme="dark" style="border-radius: 0px 0px 20px 20px; font-size: 1.2em">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                  <img class="logo" src="/static/img/openllum.svg">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                      <a class="nav-link {% if lang == "ca" %}active" aria-current="page{%endif%}" href="/">Catalan</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link {% if lang == "es" %}active" aria-current="page{%endif%}" href="/es">Español</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link {% if lang == "en" %}active" aria-current="page{%endif%}" href="/en">English</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+      <div class="row">
+         <div class="col page-margin">
+            {% block content %}
+            {% endblock %}
+         </div>
       </div>
   
     {% block scripts %}

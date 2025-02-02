@@ -9,6 +9,9 @@
    id="svg1"
    sodipodi:docname="openllum logo.svg"
    inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   inkscape:export-filename="../static/img/openllum.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -35,66 +38,54 @@
      inkscape:current-layer="svg1" />
   <defs
      id="defs1" />
-  <g
-     id="layer1">
-    <g
-       id="g131"
-       transform="matrix(0.9995281,0,0,1.0000168,-0.14588004,-3.5323161e-4)"
-       style="display:inline;stroke-width:1.00023">
-      <path
-         style="font-weight:800;font-size:20.0531px;line-height:1.25;font-family:'Helvetica Now Display';-inkscape-font-specification:'Helvetica Now Display Ultra-Bold';fill:#f2f2f2;fill-opacity:1;stroke-width:0.264643"
-         d="m 80.462805,8.6494 1.864938,-6.07609 h 5.073434 V 16.851118 H 84.172628 V 12.66002 q 0,-3.990567 0.120319,-6.898267 -0.381009,1.463877 -0.962549,3.248603 l -2.466531,7.840762 H 78.096539 L 75.630007,9.010356 q -0.441168,-1.42377 -0.942495,-3.228549 0.100265,3.36892 0.100265,6.878213 v 4.191098 H 71.559228 V 2.57331 h 5.073434 l 1.884992,6.136249 q 0.381009,1.303452 0.982602,3.549399 0.481274,-1.905045 0.962549,-3.609558 z"
-         id="path7" />
-      <path
-         style="font-weight:800;font-size:20.0531px;line-height:1.25;font-family:'Helvetica Now Display';-inkscape-font-specification:'Helvetica Now Display Ultra-Bold';fill:#f2f2f2;fill-opacity:1;stroke-width:0.264643"
-         d="m 63.377548,17.171968 q -2.787381,0 -4.491894,-1.503983 Q 57.18114,14.204109 57.18114,11.416728 V 2.57331 h 3.388974 v 8.883524 q 0,1.363611 0.721912,2.085522 0.741964,0.701859 2.085522,0.701859 1.343558,0 2.085523,-0.701859 0.741964,-0.721911 0.741964,-2.085522 V 2.57331 h 3.388974 v 8.843418 q 0,2.747275 -1.664407,4.251257 -1.644354,1.503983 -4.552054,1.503983 z"
-         id="path6" />
-      <path
-         style="font-weight:800;font-size:20.0531px;line-height:1.25;font-family:'Helvetica Now Display';-inkscape-font-specification:'Helvetica Now Display Ultra-Bold';fill:#f2f2f2;fill-opacity:1;stroke-width:0.264643"
-         d="M 49.841703,2.57331 V 13.8231 h 6.537311 v 3.028018 H 46.452729 V 2.57331 Z"
-         id="path5" />
-      <path
-         style="font-weight:800;font-size:20.0531px;line-height:1.25;font-family:'Helvetica Now Display';-inkscape-font-specification:'Helvetica Now Display Ultra-Bold';fill:#f2f2f2;fill-opacity:1;stroke-width:0.264643"
-         d="M 38.571855,2.57331 V 13.8231 h 6.537311 v 3.028018 H 35.182881 V 2.57331 Z"
-         id="text1" />
-      <text
-         xml:space="preserve"
-         style="font-weight:800;font-size:10.886px;line-height:1.25;font-family:'Helvetica Now Display';-inkscape-font-specification:'Helvetica Now Display Ultra-Bold';display:inline;fill:#f3cf14;fill-opacity:1;stroke-width:0.264643"
-         x="2.1357472"
-         y="16.8969"
-         id="text3"><tspan
-           id="tspan3"
-           style="fill:#f3cf14;fill-opacity:1;stroke-width:0.264643"
-           x="2.1357472"
-           y="16.8969">OPEN</tspan></text>
-      <rect
-         style="fill:#b20000;fill-opacity:1;stroke-width:0.100023"
-         id="rect8"
-         width="9.9740763"
-         height="3"
-         x="35.113861"
-         y="18" />
-      <rect
-         style="fill:#00b240;fill-opacity:1;stroke-width:0.100023"
-         id="rect8-2"
-         width="9.9740763"
-         height="3"
-         x="46.530155"
-         y="18" />
-      <rect
-         style="fill:#000ab2;fill-opacity:1;stroke-width:0.100023"
-         id="rect9"
-         width="12.422063"
-         height="3"
-         x="57.195004"
-         y="18" />
-      <rect
-         style="fill:#f2f2f2;fill-opacity:1;stroke-width:0.100022"
-         id="rect10"
-         width="15.868324"
-         height="3"
-         x="71.568817"
-         y="18" />
-    </g>
-  </g>
+  <path
+     style="font-weight:800;font-size:20.0531px;line-height:1.25;font-family:'Helvetica Now Display';-inkscape-font-specification:'Helvetica Now Display Ultra-Bold';fill:#f2f2f2;fill-opacity:1;stroke-width:0.264583"
+     d="M 80.278955,8.6491921 82.143012,2.573 h 5.07104 v 14.278048 h -3.227025 v -4.191169 q 0,-3.9906336 0.120262,-6.8983824 -0.380829,1.4639016 -0.962095,3.2486575 L 80.679827,16.851048 H 77.913805 L 75.448437,9.0101541 q -0.44096,-1.4237939 -0.94205,-3.2286032 0.100218,3.3689766 0.100218,6.8783281 v 4.191169 H 71.379579 V 2.573 h 5.07104 l 1.884102,6.1363521 q 0.38083,1.3034739 0.982139,3.5494589 0.481047,-1.905077 0.962095,-3.6096189 z"
+     id="path7" />
+  <path
+     style="font-weight:800;font-size:20.0531px;line-height:1.25;font-family:'Helvetica Now Display';-inkscape-font-specification:'Helvetica Now Display Ultra-Bold';fill:#f2f2f2;fill-opacity:1;stroke-width:0.264583"
+     d="m 63.20176,17.171903 q -2.786066,0 -4.489774,-1.504008 -1.70371,-1.463901 -1.70371,-4.251328 V 2.573 h 3.387375 v 8.883673 q 0,1.363634 0.721571,2.085557 0.741614,0.701871 2.084538,0.701871 1.342924,0 2.084539,-0.701871 0.741614,-0.721923 0.741614,-2.085557 V 2.573 h 3.387375 v 8.843567 q 0,2.747321 -1.663622,4.251328 -1.643578,1.504008 -4.549906,1.504008 z"
+     id="path6" />
+  <path
+     style="font-weight:800;font-size:20.0531px;line-height:1.25;font-family:'Helvetica Now Display';-inkscape-font-specification:'Helvetica Now Display Ultra-Bold';fill:#f2f2f2;fill-opacity:1;stroke-width:0.264583"
+     d="m 49.672303,2.573 v 11.249979 h 6.534226 v 3.028069 H 46.284928 V 2.573 Z"
+     id="path5" />
+  <path
+     style="font-weight:800;font-size:20.0531px;line-height:1.25;font-family:'Helvetica Now Display';-inkscape-font-specification:'Helvetica Now Display Ultra-Bold';fill:#f2f2f2;fill-opacity:1;stroke-width:0.264583"
+     d="m 38.407773,2.573 v 11.249979 h 6.534226 v 3.028069 H 35.020398 V 2.573 Z"
+     id="text1" />
+  <path
+     d="m 9.096271,15.956721 q -1.0992335,1.110117 -2.873244,1.110117 -1.7740105,0 -2.8732441,-1.110117 -1.0992335,-1.121 -1.0992335,-2.938545 0,-1.817544 1.0992335,-2.938545 1.0992336,-1.110117 2.8732441,-1.110117 1.7740105,0 2.873244,1.110117 1.099234,1.121001 1.099234,2.938545 0,1.817545 -1.099234,2.938545 z M 4.7319875,14.813954 q 0.5550585,0.65301 1.4910395,0.65301 0.9250975,0 1.501923,-0.65301 0.565942,-0.642127 0.565942,-1.795778 0,-1.153651 -0.565942,-1.795777 -0.5768255,-0.65301 -1.501923,-0.65301 -0.935981,0 -1.4910395,0.65301 -0.565942,0.642126 -0.565942,1.795777 0,1.153651 0.565942,1.795778 z M 11.044416,9.14365 h 3.526254 q 1.33867,0 2.100515,0.7074275 0.761845,0.6965445 0.761845,1.9046125 0,1.208069 -0.761845,1.915496 -0.761845,0.696544 -2.100515,0.696544 h -1.686943 v 2.524972 h -1.839311 z m 1.839311,3.66774 h 1.567224 q 0.544175,0 0.83803,-0.272088 0.304738,-0.272087 0.304738,-0.783612 0,-0.511524 -0.304738,-0.783612 -0.304738,-0.272087 -0.83803,-0.272087 H 12.883727 Z M 24.1917,9.14365 v 1.643409 h -4.081313 v 1.403971 h 3.711274 v 1.545457 h -3.711274 v 1.512807 h 4.070429 v 1.643408 h -5.90974 V 9.14365 Z m 5.898849,1.621642 V 9.14365 h 1.752243 v 7.749052 h -1.980797 l -1.893729,-3.090914 q -0.87068,-1.447505 -1.208068,-2.111399 0.04353,1.49104 0.04353,3.580672 v 1.621641 H 25.051488 V 9.14365 h 1.980797 l 1.893729,3.090914 q 0.816263,1.349554 1.208069,2.133166 -0.04353,-1.512806 -0.04353,-3.602438 z"
+     id="text3"
+     style="font-weight:800;font-size:10.8835px;line-height:1.25;font-family:'Helvetica Now Display';-inkscape-font-specification:'Helvetica Now Display Ultra-Bold';fill:#f3cf14;stroke-width:0.264583"
+     transform="scale(0.99975562,1.0002444)"
+     aria-label="OPEN" />
+  <rect
+     style="fill:#b20000;fill-opacity:1;stroke-width:0.1"
+     id="rect8"
+     width="9.9693699"
+     height="3.0000503"
+     x="34.951412"
+     y="17.999949" />
+  <rect
+     style="fill:#00b240;fill-opacity:1;stroke-width:0.1"
+     id="rect8-2"
+     width="9.9693699"
+     height="3.0000503"
+     x="46.362316"
+     y="17.999949" />
+  <rect
+     style="fill:#000ab2;fill-opacity:1;stroke-width:0.1"
+     id="rect9"
+     width="12.416201"
+     height="3.0000503"
+     x="57.022133"
+     y="17.999949" />
+  <rect
+     style="fill:#f2f2f2;fill-opacity:1;stroke-width:0.0999992"
+     id="rect10"
+     width="15.860836"
+     height="3.0000503"
+     x="71.38916"
+     y="17.999949" />
 </svg>
